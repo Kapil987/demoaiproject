@@ -120,17 +120,30 @@ Let say you are purchaing an item from amazon
 1) working dir : you are looking for the product
 2) Staging area : you selected the product for shopping cart
 3) Local repo : you puchased the product, this will create an history in your order (Commits)
+i have purchased the product from amazon, 
 4) Remote repo: your order is sent to a remote seller/vendor 
 
 
 
 echo "# demoaiproject" >> README.md
-git init
-git add README.md # git add .
+git init # .git file will be created in that dir
+git add file_name # git add .
 git status # show the status or your working dir
 
 
 git commit -m "first commit"
 git branch -M main
+
 git remote add origin https://github.com/Kapil987/demoaiproject.git
-git push -u origin main
+git remote -v
+
+git push -u origin main # kapil added this line 18 may
+git remote -v # this line is added by yashlok 19
+this line has beed added by chris on 20 may
+
+
+git fetch
+
+git add filename
+git commit -m "message"
+git push origin main
