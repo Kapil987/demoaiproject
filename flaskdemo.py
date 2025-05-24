@@ -12,4 +12,9 @@ def hello():
 
 def feature():
     return "<h1>This is our feature 1<h1>"
+
+@app.route("/products", methods=["GET", "POST"])
+def products():
+    return "<h1>This is our products page<h1>"
+    
 app.run(debug=True)
